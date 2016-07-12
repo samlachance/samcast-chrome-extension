@@ -6,10 +6,12 @@
 </head>
 <body>
   <h1>Samcast</h1>
-  <form action="http://192.168.2.42:8100/" method="post">
+  <form action="" method="post" id="samsForm">
+    <p>Server IP</p>
+    <input type="text" id="serverip">
     <p>Video URL:</p>
     <input type="text" id="url" name="streamurl">
-    <input type="submit" value="Send to Samcast">
+    <input type="submit" value="Send to Samcast" id="sendButton">
   </form>
   <script src="popup.js"></script>
 </body>
